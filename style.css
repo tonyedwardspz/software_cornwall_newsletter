@@ -2,8 +2,8 @@
   padding:0;
   margin:0;
   list-style: none;
-  text-decoration: none:
-  {box-sizing:border-box}
+  text-decoration: none;
+  box-sizing:border-box;
 }
 
 body{
@@ -13,11 +13,12 @@ body{
   list-style: none;
   background-color: #ffffff;
 }
-/* Global */
-.container{
-  width:100%;
-}
 
+img{
+  width:100%;
+  height: auto;
+}
+.gamechanger{margin-top:35px;}
 /* Header */
 header{
   background:#f4f4f4;

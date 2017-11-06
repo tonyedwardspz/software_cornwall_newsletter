@@ -2,23 +2,26 @@
   <html>
   <!-- Meta tags below -->
     <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Software Cornwall | Newsletter</title>
-      <link rel="stylesheet" href="style.css">
-      <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+					<link rel="stylesheet" href="style.css">
     </head>
     <body>
+			<div class="container">
       <!-- Header below -->
-      <header>
-        <div class="container">
-          <div id="branding">
-            <img src="images/softwarecornwalllogo.png" style="width:400px;height:auto;">
-            <img src="images/gamechanger-wrap.png" style="width:600px;height:auto;">
-          </div>
+      <header class="row">
+				<div class="col-sm">
+            <img src="images/softwarecornwalllogo.png" >
+				</div>
+				<div class="col-sm gamechanger">
+            <img src="images/gamechanger-wrap.png" >
+				</div>
       </header>
 <!-- Slideshow position -->
-          <div class="slideshow-container">
+          <div class="slideshow-container row">
             <div class="mySlides fade">
               <div class="numbertext">1 / 3</div>
               <img src="images/example1.jpg" style="width:100%">
@@ -47,9 +50,9 @@
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
           </div>
-        </div>
 
 <!-- Newsletter below-->
+			<div class = "row">
 				<div id="mc_embed_signup">
 					<form action="//softwarecornwall.us8.list-manage.com/subscribe/post?u=25224c7d23b3e481fc715e8ff&amp;id=a4dd4b0c0c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 							<div id="mc_embed_signup_scroll">
@@ -77,17 +80,20 @@
 							</div>
 					</form>
 				</div>
+			</div>		
 <!--End mc_embed_signup-->
-
-        </div>
-      </section>
 <!-- Footer -->
-      <footer>
+      <footer class="row">
         <p>&copy;Software Cornwall, Designed by Benjamin N. Cole</p>
       </footer>
+		</div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
 <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
 </script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <script src = "script.js"> </script>
+
 </body>
   </html>
