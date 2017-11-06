@@ -1,4 +1,4 @@
-﻿   <!DOCTYPE html>
+   <!DOCTYPE html>
   <html>
   <!-- Meta tags below -->
     <head>
@@ -48,35 +48,7 @@
             <span class="dot" onclick="currentSlide(3)"></span>
           </div>
         </div>
-<!-- Scripting for the Slideshow-->
-<script>
-        var slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-  </script>
 <!-- Newsletter below-->
 <div id="mc_embed_signup">
 <form action="//softwarecornwall.us8.list-manage.com/subscribe/post?u=25224c7d23b3e481fc715e8ff&amp;id=a4dd4b0c0c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -116,5 +88,6 @@ function showSlides(n) {
       <footer>
         <p>&copy;Software Cornwall, Designed by Benjamin N. Cole</p>
       </footer>
+<script src = "script.js"> </script>
 </body>
   </html>
