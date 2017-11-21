@@ -12,6 +12,7 @@ body{
   margin:0;
   list-style: none;
   background-color: #f4f4f4;
+  position: relative;
 }
 
 img{
@@ -36,7 +37,7 @@ header{
   margin-left: -15px;
   margin-right: -15px;
   margin-bottom: -7px;
-  
+
 }
 
 .mySlides {
@@ -112,7 +113,7 @@ header{
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-fill-mode: forwards;
-  
+
   animation-fill-mode: forwards;
   animation-name: fade;
   animation-duration: 1.5s;
@@ -134,11 +135,17 @@ header{
   margin-bottom: 20px;
   margin-top: 7px;
 }
+
+#mc_embed_signup_scroll {
+  margin-bottom: 2.5em;
+}
+
+
 /*Footer*/
 footer{
   background:#f4f4f4;
   position:absolute;
   bottom:0;
   width:100%;
-  
+
 }
